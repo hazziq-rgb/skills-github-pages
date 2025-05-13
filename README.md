@@ -1,4 +1,109 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dato' Prince Haziq Harvey - Ahli Perniagaan Berjaya</title>
+</head>
+<body>
+
+    <header>
+        <h1>Dato' Prince Haziq Harvey</h1>
+        <p>Ahli Perniagaan Berjaya & Usahawan Inspirasi</p>
+    </header>
+
+    <!-- Pengenalan Diri -->
+    <section id="about">
+        <h2>Pengenalan Diri</h2>
+        <p>Dato' Prince Haziq Harvey merupakan seorang usahawan yang berjaya dalam bidang hartanah, pelaburan strategik, dan konsultasi perniagaan. Beliau telah membina empayar perniagaan yang kukuh selama lebih 15 tahun dan menjadi inspirasi kepada ramai usahawan muda.</p>
+    </section>
+
+    <!-- Perkhidmatan -->
+    <section id="services">
+        <h2>Perkhidmatan</h2>
+        <ul>
+            <li>Pembangunan Hartanah - Projek kondominium, apartmen, dan bangunan komersial.</li>
+            <li>Pelaburan Strategik - Konsultasi pelaburan untuk individu dan syarikat.</li>
+            <li>Konsultasi Perniagaan - Rangka pelan perniagaan dan strategi pemasaran.</li>
+        </ul>
+    </section>
+
+    <!-- Portfolio Projek -->
+    <section id="portfolio">
+        <h2>Portfolio Projek</h2>
+        <div class="project">
+            <h3>Projek Kondominium Mewah</h3>
+            <p>Pembangunan kondominium 20 tingkat di pusat bandar Kuala Lumpur.</p>
+        </div>
+        <div class="project">
+            <h3>Pusat Perniagaan Strategik</h3>
+            <p>Pusat perniagaan berkonsepkan moden dengan kemudahan lengkap.</p>
+        </div>
+        <div class="project">
+            <h3>Pelaburan Hartanah Luar Negara</h3>
+            <p>Projek pelaburan hartanah di Dubai dan Singapura.</p>
+        </div>
+    </section>
+
+    <!-- Pasukan -->
+    <section id="team">
+        <h2>Pasukan Kami</h2>
+        <div class="team-member">
+            <h3>Ahmad Zulkifli</h3>
+            <p>Ketua Pembangunan Projek</p>
+        </div>
+        <div class="team-member">
+            <h3>Nurul Ain</h3>
+            <p>Pakar Pelaburan</p>
+        </div>
+        <div class="team-member">
+            <h3>Farid Hakim</h3>
+            <p>Konsultan Perniagaan</p>
+        </div>
+    </section>
+
+    <!-- Media & Pencapaian -->
+    <section id="media">
+        <h2>Media & Pencapaian</h2>
+        <p>Dato' Prince Haziq Harvey telah menerima pelbagai anugerah, termasuk:</p>
+        <ul>
+            <li>Anugerah Usahawan Terbaik 2024 - Majlis Pembangunan Usahawan Malaysia</li>
+            <li>Projek Hartanah Terbaik 2023 - Asian Property Awards</li>
+            <li>Usahawan Inspirasi 2022 - Forbes Asia</li>
+        </ul>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Cara Memulakan Pelaburan Hartanah</h3>
+            <p>Pelajari langkah-langkah untuk memulakan pelaburan hartanah dengan risiko minimum.</p>
+        </div>
+        <div class="blog-post">
+            <h3>Pentingnya Konsultasi Perniagaan</h3>
+            <p>Mengapa konsultasi perniagaan menjadi faktor penting dalam mencapai kejayaan perniagaan.</p>
+        </div>
+    </section>
+
+    <!-- Hubungi Kami -->
+    <section id="contact">
+        <h2>Hubungi Kami</h2>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Mesej:</label>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Hantar</button>
+        </form>
+    </section>
+
+</body>
+</html>
 
 <!--
   <<< Author notes: Course header >>>
